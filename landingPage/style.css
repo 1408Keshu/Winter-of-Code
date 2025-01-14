@@ -1,0 +1,101 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 60px;
+}
+nav h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin: 0;
+}
+button{
+    background-color: black;
+    border-radius: 20px;
+    color: aliceblue;
+    height: 30px;
+    padding: 18px 15px ;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+nav ul li{
+    /* text-decoration: none; */
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+.intro{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 100px;
+
+    /* gap: ; */
+
+}
+.intro h1{
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 93px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.intro p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.intro button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 15px 30px;
+}
+
+.main image{
+    /* position: relative; */
+    /* width:  */
+
+    
+}
+.main img{
+    /* right: 0; */
+    width: 45vw;
+    height: 85vh;
+    
+}
+footer{
+    z-index: 2;
+    background-color: white;
+    height: 7vh;
+    width: 100vw;
+}
+footer ul {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+footer ul li{
+    list-style: none;
+    color: rgb(97, 97, 97);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+
+}
